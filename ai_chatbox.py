@@ -2,7 +2,7 @@ import tkinter as tk
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = "OPENAI_API_KEY"
 
 def send_message():
     """Fetch the message from the entry box, display it, get the AI response, and display the response."""
